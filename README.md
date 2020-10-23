@@ -3,7 +3,7 @@
 1.安装
     mkdir -p catkin_ws/src
     cd catkin_ws/src
-    git clone
+    git clone https://github.com/shangjie-li/image-saver.git
     cd ..
     catkin_make
 
