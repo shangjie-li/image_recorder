@@ -1,0 +1,23 @@
+<!-- -->
+
+<launch>
+
+	<!-- camera1  -->
+	<include file="$(find image_saver)/launch/getAndSave.launch" >
+		<arg name="camera_id" value="1"/>
+		<arg name="path" value="$(find image_saver)/image/left"/>
+		<arg name="fps" value="20"/>
+	</include>
+	
+	<!-- camera2 -->
+	<include file="$(find image_saver)/launch/getAndSave.launch" >
+		<arg name="camera_id" value="2"/>
+		<arg name="path" value="$(find image_saver)/image/right"/>
+		<arg name="fps" value="20"/>
+	</include>
+
+	
+
+
+</launch>
+
