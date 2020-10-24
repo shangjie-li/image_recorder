@@ -13,12 +13,12 @@
    ```
 
 # 运行
- - 运行image_saver：
+ - 运行`image_saver`：
    ```Shell
    source devel/setup.bash
    roslaunch image_saver demo.launch
    ```
- - 运行save_image_trigger：
+ - 运行`save_image_trigger`：
    ```Shell
    source devel/setup.bash
    rosrun image_saver save_image_trigger trigger_rate startIndex
@@ -35,12 +35,12 @@
    ```
 
 # Run
- - Run image_saver:
+ - Run `image_saver`:
    ```Shell
    source devel/setup.bash
    roslaunch image_saver demo.launch
    ```
- - Run save_image_trigger:
+ - Run `save_image_trigger`:
    ```Shell
    source devel/setup.bash
    rosrun image_saver save_image_trigger trigger_rate startIndex
