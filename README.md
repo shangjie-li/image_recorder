@@ -28,6 +28,6 @@ ROS package for recording images
 ## 运行
  - 启动`image_recorder`
    ```Shell
-   roslauch image_recorder image_recorder.launch
+   roslaunch image_recorder image_recorder.launch
    ```
 
