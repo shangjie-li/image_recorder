@@ -77,7 +77,7 @@ void ImageRecorder::image_cb(const sensor_msgs::Image::ConstPtr &msg)
 	frame_num_ ++;
 }
 
-int main(int argc, char **argv)
+int main(int argc, char** argv)
 {
 	ros::init(argc, argv, "image_recorder");
     ros::NodeHandle nh("~");
