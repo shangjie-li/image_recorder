@@ -3,10 +3,10 @@
 <launch>
 
 	<node pkg="image_recorder" type="image_recorder_node" name="image_recorder_node" output="screen" >
-		<param name ="sub_topic" value="/image_rectified"/>
-		<param name ="save_path" value="$(find image_recorder)/images"/>
-		<param name ="frame_interval" value="5"/>
-		<param name ="start_index" value="1"/>
+		<param name="sub_topic" value="/image_rectified"/>
+		<param name="save_path" value="$(find image_recorder)/images"/>
+		<param name="frame_interval" value="5"/>
+		<param name="start_index" value="1"/>
 	</node>
 
 </launch>

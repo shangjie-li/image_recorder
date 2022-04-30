@@ -15,10 +15,10 @@ ROS package for recording images
 ## 参数配置
  - 修改`image_recorder/launch/image_recorder.launch`
    ```Shell
-   <param name ="sub_topic" value="/image_rectified"/>
-   <param name ="save_path" value="$(find image_recorder)/images"/>
-   <param name ="frame_interval" value="5"/>
-   <param name ="start_index" value="1"/>
+   <param name="sub_topic" value="/image_rectified"/>
+   <param name="save_path" value="$(find image_recorder)/images"/>
+   <param name="frame_interval" value="5"/>
+   <param name="start_index" value="1"/>
    ```
     - `sub_topic`指明订阅的图像话题。
     - `save_path`指明保存图像的路径，第一次使用时需手动创建。
